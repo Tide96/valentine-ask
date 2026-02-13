@@ -60,7 +60,7 @@ body {
     background-position: center;
     border-radius: 12px;
     gap: 1px;
-    padding-top: 180px;
+    padding-top: 2000px;
 
     transform: scale(1.2);
     opacity: 0;
@@ -73,8 +73,8 @@ body {
 }
 
 h1 {
-    font-size: 30px;
-    margin:0;
+    font-size: 40px;
+    margin:60px;
 }
 
 p {
