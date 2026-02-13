@@ -74,8 +74,9 @@ body {
 
 
 h1 {
-    font-size: 40px;
-    margin: 60px;
+    margin: 60px auto 0 auto;
+  width: 80%;
+  text-align: center;
 }
 
 p {
