@@ -59,14 +59,14 @@ noBtn.addEventListener("click", () => {
 
 // YES is clicked
 
-// yesBtn.addEventListener("click", () => {
-//     title.textContent = "Yippeeee!";
+yesBtn.addEventListener("click", () => {
+    title.textContent = "Yippeeee!";
 
-//     catImg.src = "cat_dance.gif";
+    catImg.src = "cat_dance.gif";
 
-//     document.querySelector(".letter-window").classList.add("final");
+    document.querySelector(".letter-window").classList.add("final");
 
-//     buttons.style.display = "none";
+    buttons.style.display = "none";
 
 //     finalText.style.display = "block";
 // });
