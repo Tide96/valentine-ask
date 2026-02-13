@@ -38,35 +38,35 @@ noBtn.addEventListener("mouseover", () => {
 
 // Logic to make YES btn to grow
 
-// let yesScale = 1;
+let yesScale = 1;
 
-// yesBtn.style.position = "relative"
-// yesBtn.style.transformOrigin = "center center";
-// yesBtn.style.transition = "transform 0.3s ease";
+yesBtn.style.position = "relative"
+yesBtn.style.transformOrigin = "center center";
+yesBtn.style.transition = "transform 0.3s ease";
 
-// noBtn.addEventListener("click", () => {
-//     yesScale += 2;
+noBtn.addEventListener("click", () => {
+    yesScale += 2;
 
-//     if (yesBtn.style.position !== "fixed") {
-//         yesBtn.style.position = "fixed";
-//         yesBtn.style.top = "50%";
-//         yesBtn.style.left = "50%";
-//         yesBtn.style.transform = `translate(-50%, -50%) scale(${yesScale})`;
-//     }else{
-//         yesBtn.style.transform = `translate(-50%, -50%) scale(${yesScale})`;
-//     }
-// });
+    if (yesBtn.style.position !== "fixed") {
+        yesBtn.style.position = "fixed";
+        yesBtn.style.top = "50%";
+        yesBtn.style.left = "50%";
+        yesBtn.style.transform = `translate(-50%, -50%) scale(${yesScale})`;
+    }else{
+        yesBtn.style.transform = `translate(-50%, -50%) scale(${yesScale})`;
+    }
+});
 
 // YES is clicked
 
-yesBtn.addEventListener("click", () => {
-    title.textContent = "Yippeeee!";
+// yesBtn.addEventListener("click", () => {
+//     title.textContent = "Yippeeee!";
 
-    catImg.src = "cat_dance.gif";
+//     catImg.src = "cat_dance.gif";
 
-    document.querySelector(".letter-window").classList.add("final");
+//     document.querySelector(".letter-window").classList.add("final");
 
-    buttons.style.display = "none";
+//     buttons.style.display = "none";
 
-    finalText.style.display = "block";
-});
+//     finalText.style.display = "block";
+// });
