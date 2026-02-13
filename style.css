@@ -5,6 +5,10 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url("heart-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    background-color: pink;
     font-family: "Pixelify Sans", sans-serif;
 }
 
